@@ -1,2 +1,2 @@
 # MatrixVisualizer
-Simple JS code for visualizing matrix transform.
+Simple (and messy atm) JS code for visualizing matrix transform.
