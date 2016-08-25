@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Matrix Visualizer </title>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body * {
+                display: block;
+            }
+            .input {
+                position: absolute;
+            }
+            .input * {
+                display: inline;
+            }
+            input[type="text"] {
+                width: 2em;
+                text-align: center;
+            }
+            .x {
+                top: 5px;
+            }
+            .y {
+                top: 35px;
+            }
+        </style>
+    </head>
+<body>
+    <div class = "input x">
+        <input type = "range" step=".01" max="1" min="-1" value="0" id="x">
+        <input type = "text" value="0" id="x-input" readonly>
+        <input type = "text" value="1" id="line-x">
+    </div>
+    <div class="input y">
+        <input type = "range" step=".01" max="1" min="-1" value="0" id="y">
+        <input type = "text" value="0" id="y-input" readonly>
+        <input type = "text" value="1" id="line-y">
+    </div>
+    <canvas id = "canvas"></canvas>
+    <script type = "text/javascript" src="main.js"></script>
+</body>
+</html>
