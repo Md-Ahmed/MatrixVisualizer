@@ -1,3 +1,5 @@
+window.onload = function() {
+
 var bgCanvas = document.getElementById('bg-canvas');
 var canvas = document.getElementById('canvas');
 var fgCanvas = document.getElementById('fg-canvas');
@@ -153,4 +155,6 @@ document.getElementById("line-y").onchange = function () {
 document.getElementById('loadbtn').onclick = function() {
     fgContext.clearRect(-width/2, -height/2, width, height)
     drawImage();
+}
+
 }
