@@ -7,6 +7,7 @@
 <body>    
     <canvas id="bg-canvas"></canvas>
     <canvas id = "canvas"></canvas>
+    <canvas id="fg-canvas"></canvas>
     <div class = "input x">
         <input type = "range" step=".01" max="1" min="-1" value="0" id="x">
         <span id="x-input">0</span>
@@ -16,6 +17,10 @@
         <input type = "range" step=".01" max="1" min="-1" value="0" id="y">
         <span id="y-input">0</span>
         <input type = "text" value="1" id="line-y">
+    </div>
+    <div class="input file">
+        <input type="file" id="imgfile">
+        <input type="button" id="loadbtn" value="load">
     </div>
     <script type = "text/javascript" src="main.js"></script>
 </body>

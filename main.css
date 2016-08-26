@@ -22,6 +22,9 @@ input[type="text"] {
 .y {
     top: 35px;
 }
+.file{
+    top: 65px;
+}
 canvas{
     position: absolute;
 }
